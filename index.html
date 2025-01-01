@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binayak Bartaula</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    emailjs.init("..");
+</script>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Greetings, I’m Binayak.</h1>
+            <p>A dedicated developer, fueled by the pursuit of innovative solutions.</p>
+            <button onclick="scrollToSection('projects')" class="hero-btn">See My Work</button>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me → Who I Am and What I Do</h2>
+            <div class="about-image">
+                <img src="images/profile.jpg" alt="Profile Picture">
+                <h3>🧭</h3>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m an aspiring developer currently pursuing a Bachelor’s degree in Computer Science, with a passion for building creative and impactful digital solutions. My expertise spans web development, programming, and problem-solving, honed through diverse hands-on projects. These experiences have not only enhanced my technical skills but also nurtured my ability to adapt and excel in dynamic environments.</p>
+                    <p>I am dedicated to continuously broadening my skill set by exploring new technologies and tackling challenging projects. My primary focus is on refining my problem-solving and logic-building capabilities, ensuring that I remain at the forefront of the ever-evolving tech industry.</p>
+                    <p>Outside of academics, I draw inspiration from literature, cinematic masterpieces, TV shows, and interactive media, which fuel my creativity and drive for innovation. These outlets not only enhance my critical thinking but also help me approach challenges with a fresh perspective. I also enjoy playing video games, a hobby that helps me unwind and stay refreshed.</p>
+                    <p>In terms of development, I am proficient in JavaScript, Python, and frameworks like React and Node.js, which I use to bring my creative ideas to life through coding and problem-solving. Driven by a passion for innovation, I am eager to contribute to the tech and engineering sectors through impactful projects. I aim to collaborate with forward-thinking teams, applying my skills to create solutions that make a difference.</p>
+                    <p>Committed to lifelong learning, I embrace every opportunity to grow and thrive in this dynamic industry.</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="projects">
+        <h2>What I've Built → My Work in Action</h2>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/flappybird.png" alt="Project 1">
+                <h3>Flappy Bird</h3>
+                <p>The game is a simple clone of Flappy Bird, where the player controls a green bird, avoiding dark green pipes by pressing space or the up arrow. The game is over if the bird hits a pipe or the ground. Upon game-over, the game closes automatically after 1 second. The player’s score is displayed in real-time.</p>
+                <a href="https://github.com/binayakbartaula11/FlappyBird" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <h2>What I Can Do → Skills and Expertise</h2>
+        <div class="skills-content">
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>Proficient in HTML, CSS, and JavaScript for creating interactive and responsive websites. Familiar with React, Node.js, and Express for building full-stack applications.</p>
+                </div>
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Experienced in multiple programming languages, including JavaScript, Python, Java, C++, and C. Adept at solving problems using algorithmic techniques.</p>
+                </div>
+                <div class="skill">
+                    <h3>Database Management</h3>
+                    <p>Skilled in working with SQL and NoSQL databases like MySQL, and MongoDB, ensuring efficient data storage and retrieval for complex applications.</p>
+                </div>
+                <div class="skill">
+                    <h3>Version Control</h3>
+                    <p>Proficient in using Git for version control, with hands-on experience with platforms like GitHub and GitLab for collaboration and code management.</p>
+                </div>
+                <div class="skill">
+                    <h3>Problem-Solving</h3>
+                    <p>Strong logical and analytical thinking skills, solving complex problems using various algorithms. Able to approach challenges with innovative solutions and creative thinking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Connect With Me → Let's Collaborate</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <section id="social">
+        <h2>Let's Chat → Let's Connect</h2>
+        <div class="social-links">
+            <a href="https://github.com/binayakbartaula11" target="_blank" class="social-link github">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/binayak-bartaula-0852aa169/" target="_blank" class="social-link linkedin">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://x.com/intent/follow?screen_name=BartaulaBinayak" target="_blank" class="social-link twitter">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com/binayak_bartaula/" target="_blank" class="social-link instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            <a href="https://www.facebook.com/binayak.bartaula.2/" target="_blank" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+        </div>
+    </section>
+    
+    
+    
+
+    <footer>
+        <div class="footer-content">
+            <p>Crafted with passion, powered by innovation. &copy; 2024 Binayak Bartaula – All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/binayakbartaula11" target="_blank" class="footer-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/binayak-bartaula-0852aa169/" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/intent/follow?screen_name=BartaulaBinayak" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/binayak_bartaula/" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/binayak.bartaula.2/" target="_blank" class="footer-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
